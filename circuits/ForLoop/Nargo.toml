@@ -1,5 +1,9 @@
 [package]
+name = "DotProduct"
+type = "bin"
 authors = ["RareSkills"]
-compiler_version = "0.4.1"
+compiler_version = "0.32.0"
+description = "Getting started with Noir"
+entry = "src/main.nr"
 
 [dependencies]

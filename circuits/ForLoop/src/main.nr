@@ -5,9 +5,19 @@
 
 // See here: https://noir-lang.org/language_concepts/control_flow/#loops
 
-fn main() -> pub Field {
+fn main(arr: [ Field; 3]) -> pub Field {
   // your code here
+    let mut result: [ Field; 1 ] = [ 0 ];
+    let mut total = 0;
+
+    for i in 0..arr.len() {
+      print(arr[i]);
+    }
+    
+    result: [ Field; 1 ]
 }
+
+
 
 ////////////////////
 //     TESTS      //
