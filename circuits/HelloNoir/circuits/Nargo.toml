@@ -1,5 +1,9 @@
 [package]
-authors = [""]
-compiler_version = "0.5.1"
+name = "HelloNoir"
+type = "bin"
+authors = ["Daisy Adams"]
+compiler_version = "0.31.0"
+description = "Getting started with Noir"
+entry = "src/main.nr"
 
 [dependencies]
