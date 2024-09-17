@@ -17,7 +17,6 @@ fn main(arr: [ Field; 3]) -> pub Field {
     result: [ Field; 1 ]
 }
 
-
 ////////////////////
 //     TESTS      //
 ////////////////////
